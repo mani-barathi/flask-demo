@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask App - Home</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Welcome Hello {{n}}</h1>
+    <h1>You are {{age}} years old</h1>
+
+    <!-- if condition -->
+    {% if not names %}
+    <p>No names to display!</p>
+    {% endif %}
+
+    <!-- for loop -->
+    {% for name in names %}
+    <p>{{name}}</p>
+    {% endfor %}
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

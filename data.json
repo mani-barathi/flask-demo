@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "type": "Mouse",
+    "points": 81
+  },
+  {
+    "id": 2,
+    "name": "Bulbasaur",
+    "type": "Seed",
+    "points": 84
+  },
+  {
+    "id": 3,
+    "name": "Charmander",
+    "type": "Lizard",
+    "points": 79
+  },
+  {
+    "id": 4,
+    "name": "Butterfree",
+    "type": "Butterfly",
+    "points": 70
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "type": "Lizard",
+    "points": 68
+  },
+  {
+    "id": 6,
+    "name": "Squirtle",
+    "type": "Turtle",
+    "points": 65
+  },
+  {
+    "id": 7,
+    "name": "Wartortle",
+    "type": "Turtle",
+    "points": 72
+  },
+  {
+    "id": 8,
+    "name": "Venusaur ",
+    "type": "Seed",
+    "points": 65
+  },
+  {
+    "id": 9,
+    "name": "Weedle",
+    "type": "Bug",
+    "points": 59
+  },
+  {
+    "id": 10,
+    "name": "Rattata",
+    "type": "Mouse",
+    "points": 79
+  }
+]
