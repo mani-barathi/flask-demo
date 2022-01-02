@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Add Product Page
+{% endblock %}
+
+
+
+
+{% block content %}
+  <form method="post">
+    <input type="text" name="product_name" id="">
+    <button type="submit"> Submit</button>
+  </form>
+
+  {% if is_submited %}
+    <p>Form submitted!</p>
+  {% endif %}
+
+{% endblock %}
